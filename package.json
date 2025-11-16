@@ -1,0 +1,19 @@
+{
+  "name": "clown-list-vercel",
+  "version": "1.0.0",
+  "description": "The Clown List - Serverless deployment",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "cd frontend && npm run build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "mongoose": "^7.6.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
+
